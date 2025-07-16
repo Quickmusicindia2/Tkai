@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Me - Twinkle</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .booking-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .booking-form input, .booking-form textarea, .booking-form select {
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+    }
+
+    .booking-form button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>📅 Book a Session with Twinkle</h1>
+    <form class="booking-form">
+      <input type="text" placeholder="Your Full Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <select required>
+        <option value="">-- Select Booking Type --</option>
+        <option value="collab">Collaboration</option>
+        <option value="promo">Brand Promotion</option>
+        <option value="fan">Fan Video Call</option>
+      </select>
+      <input type="date" required />
+      <textarea placeholder="Additional Notes or Message"></textarea>
+      <button type="submit" class="btn">Submit Booking</button>
+    </form>
+  </div>
+</body>
+</html>
