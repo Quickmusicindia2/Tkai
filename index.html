@@ -82,3 +82,65 @@
   </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard - Twinkle</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .dashboard {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      margin-top: 30px;
+    }
+    .card {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 10px #9D00FF;
+      text-align: center;
+    }
+    .card h2 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Admin Dashboard</h1>
+    <p>Manage everything from one place</p>
+
+    <div class="dashboard">
+      <div class="card">
+        <h2>👥 Users</h2>
+        <p>158 active users</p>
+        <a href="#" class="btn">Manage Users</a>
+      </div>
+      <div class="card">
+        <h2>🛍 Orders</h2>
+        <p>43 recent purchases</p>
+        <a href="#" class="btn">View Orders</a>
+      </div>
+      <div class="card">
+        <h2>📝 Blog Posts</h2>
+        <p>12 articles live</p>
+        <a href="#" class="btn">Edit Blog</a>
+      </div>
+      <div class="card">
+        <h2>📦 Products</h2>
+        <p>7 digital items</p>
+        <a href="#" class="btn">Edit Shop</a>
+      </div>
+      <div class="card">
+        <h2>💬 Reviews</h2>
+        <p>96 fan reviews</p>
+        <a href="#" class="btn">Moderate</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
