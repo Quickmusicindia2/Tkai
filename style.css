@@ -1,0 +1,22 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #9D00FF, #00BFFF);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.hero {
+  text-align: center;
+}
+.btn {
+  background: white;
+  color: #9D00FF;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
